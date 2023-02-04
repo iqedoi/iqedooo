@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Almarai:400,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Almarai', sans-serif;
+  }
+
+input {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  line-height: 30px;
+  min-height: 30px;
+  display: block;
+  width: 100%;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  padding: 0 10px;
+}
+
+input[type=submit] {
+  margin-top: 27px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  padding: 5px 15px;
+  background-color: #a0ae01;
+}
+
+label {
+  /* color: #FFF; */
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#msg {
+  padding: 10px;
+  text-align: center;
+  color: #FFF;
+}
+  
+  body {
+    background-color: #fff;
+  }
+  
+  #app {
+    min-height: 100vh;
+    max-width: 550px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  header {
+    text-align: center;
+    padding: 10px;
+    background-color: #FFF;
+  }
+
+header img {
+  width: 230px;
+}
+
+header p {
+  color: #D69133;
+}
+  
+  .content {
+    padding: 20px;
+    min-height: calc(100vh - 319px)
+  }
+  
+  footer{
+    height: 187px;
+    text-align: center;
+  }
+
+footer img{
+  width: 100%;
+}

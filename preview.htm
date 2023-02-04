@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <meta name="theme-color" content="#a0ae01">
+    <meta name="msapplication-navbutton-color" content="#a0ae01">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#a0ae01">
+
+
+  
+
+
+<style>
+
+@import  url('css/default.css');
+
+</style>
+<!--<link rel="stylesheet" href="css/app.css">-->
+<link rel="stylesheet" href="css/themes.css">
+<link rel="stylesheet" href="css/slick-theme.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/main2.css">
+<style type="text/css">
+    :root {
+        --main-color: #a0ae01;
+        --infinte-color: #a0ae01;
+        --main-text-color: #808e00;
+        --main-text-color2: #465400;
+        --main-text-color-dark: #a0ae01;
+        /* New Coloring Pattern: */
+        --color-main: #a0ae01;
+        --color-main-d: #869400;
+        --color-main-l: #c6d427;
+        --color-main-reverse: #202e00;
+        --color-text: #5a5a5a;
+        --color-text-reverse: #202e00;
+        --color-title: #536100;
+
+    }
+    .store-header, .header-bar, .store-header-min { background: #a0ae01; }
+    .store-header h1 a, .store-header-min h1 { color: #fff; }
+    .dropdown-store-header.open .dropdown-toggle, .dropdown-store-header.open .dropdown-toggle { background: #a0ae01; color: #fff; }
+    .pace-demo { background: #808e00 !important; }
+    .pace .pace-progress { background: #465400 !important;/*darker*/ }
+    .add-cart { color: #808e00;/*darker*/ border: 1px solid #808e00;/*darker*/ }
+    .add-cart:hover, .add-cart:focus, .add-cart-large:hover, .add-cart-large:focus, .order-btn:hover, .order-btn:focus { background: #808e00;/*darker*/ border-color: #808e00; }
+    .cart-nav-submit, .cart-nav-more, .cart-nav-solid { background: #808e00;/*darker*/ border-color: #808e00;/*darker*/ }
+    .add-cart-large, .order-btn { background: #808e00; border-color: #808e00; }
+    .cart-nav-light:hover, .cart-nav-light:active, .cart-nav-light:focus { color: #a0ae01; }
+    .cart-nav-light { border-color: #808e00;/*darker*/ color: #808e00; }
+    .cart-line { border-color: #a0ae01;/*lighter*/ }
+    .cart-number { color: #a0ae01;/*lighter*/ border-color: #a0ae01; }
+    .active-step .cart-number { background: #a0ae01; border-color: #a0ae01; }
+    .cart-title { color: #a0ae01 !important;}
+    #salla_bar { border-top-color: #a0ae01; }
+    #salla_bar .checkout-button { background: #808e00; }
+    .choice.border-info-600.text-info-800 { color: #808e00 !important; border-color: #808e00 !important; }
+    .payment-method.active { background: #808e00 !important; }
+    .pagination>.active>span{background-color: #808e00 !important; border-color: #808e00 !important;}
+
+
+        .product-side-container .product-order-container .panel-heading { background: #a0ae01 !important; border-bottom-color: #a0ae01 !important; color:  #fff  !important; }
+    .testimonial-header, .owl-theme .owl-nav [class*=owl-] { background:  #a0ae01  !important; }
+
+    a:hover, a:focus { color: #465400; }
+    .sub-nav__menu:hover svg { fill: #808e00; }
+    .footer-main { background-color: #a0ae01; }
+    .site-header { box-shadow:inset 0 3px 0 0 #808e00; }
+    .site-header__cart .badge { background: #a0ae01; }
+    .circle-action:hover { background: #808e00 ;border-color: #808e00; }
+    .sub-nav .main-menu > li:hover > a, .sub-nav .main-menu > li:hover > a > i { color: #808e00; }
+    .sub-nav li > ul a:hover { color: #465400; }
+    .slick-active button { background-color: #808e00 !important; }
+    .product:hover .product-title { color: #808e00; }
+    .product-price, .product-details__price { color: #808e00; }
+
+    .product-add:hover { background-color: #a0ae01 !important; }
+    .social__item a:hover, .sub-nav__menu:hover { color: #a0ae01 !important; }
+    .login-container .border-yellow-dark { border-color: #808e00; }
+    .login-container .text-yellow-dark { color: #808e00; }
+    .login-option, .btn-resend-option { color: #808e00; border-color: #808e00; }
+    .login-option:hover, .btn-resend-option:hover { color: #fff; border-color: #808e00; background: #808e00; }
+    .feature-item__icon { background: #a0ae01; }
+    .landing-page-feature-item__icon { background: #808e00; }
+    .sub-nav-header { background: #a0ae01; }
+    .sub-nav-header a { color: #a0ae01; }
+    .btn-primary { background: #808e00; border-color: #808e00; }
+    .btn-primary:focus, .btn-primary.focus, .btn-primary:hover, .btn-primary.active, .btn-primary:active { background: #465400 !important; border-color: #465400 !important; }
+    
+    .page-box .panel-heading .product-title { color: #808e00 !important; }
+    #ask_register_link { color: #808e00 !important; }
+    .product-details__hot strong { color: #808e00 !important; }
+    .checker span { border-color: #808e00 !important; }
+    .btn-order-details { background: #808e00 !important; }
+    @media (min-width: 992px) {
+        .sub-nav li > ul a:hover { background: #808e00; color: #fff; }
+    }
+    .section-header .section--title { color: #808e00; }
+
+
+    </style>
+<style>.categories-nav::after{background: none}
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.footer-wrapper p{margin: 0 auto;}
+.logo img{height: 80px;}
+@media (max-width: 600px) {
+  .logo img{height: 60px;}
+}
+a.submit{
+margin-top: 27px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    padding: 5px 15px;
+	}
+input[type=submit],a.submit{
+	background-color: #45A642;
+    border: 0 none;
+}
+input[type=submit]:hover,a.submit:hover{
+	background-color: #45A642;
+}
+.site-header {
+    box-shadow: inset 0 3px 0 0 #45A642;
+}
+.section.py-3{    padding-bottom: 48px!important;}
+footer{
+	/*position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;*/height: auto;
+}
+
+footer .footer-sub{background: #00556E;}
+footer .mt-5{clear: both;
+overflow: hidden;
+text-align: center;
+display: flex;
+align-items: center;
+width: 150px!important;
+margin: 9px auto;
+}
+.footer-wrapper p{color: #ffff;
+    font: normal normal normal 16px/20px Bahij TheSansArabic;
+    font-size: 14px;}
+
+@media (max-width: 600px) {
+.col-xs-12 {
+    width: 100%;
+}
+}
+
+.modal-title{font-weight:bold}
+</style>
+</head>
+
+<body class="cat-showwithslug salla-theme_1 color-mode-dark font-dinnextltarabic-regular" style="max-width:900px;margin:0 auto;">
+
+
+
+<img src="download.php?id=&" style="width:100%" />
+
+<!--<form method="post" action="">-->
+<div class="col-xs-12" style="width:100%">
+<a href="download.php?down=1&id=&&" class="submit col-sm-12 col-xs-12" style="margin-top: 2px;display: block;text-align:center;padding: 6px 0 12px 0;border: 1px solid #fff;">
+تحميل البطاقة </a>
+</div>
+
+
+<!-- Modal Whatsapp-->
+<div id="myModalWhats" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">إرسال الشهادة الى حساب واتساب</h4>
+      </div>
+      <div class="modal-body">
+        <p><label>أدخل رقم الواتساب:</label></p>
+		<input class="form-control" id="fmobile" type="text" required value="" placeholder="9665xxxxxxxxx">
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="btnwhatsappsend" class="btn btn-default" style="color:#fff;background-color:#45A642">تأكيد</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- Modal Email-->
+<div id="myModalEmail" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">إرسال الشهادة الى بريد إلكتروني</h4>
+      </div>
+	  <form method="post" action="send_email.php">
+      <div class="modal-body">
+        <p><label>أدخل البريد الإلكتروني:</label></p>
+		<input class="form-control" name="femail" id="femail" type="email" required value="" placeholder="@">
+      </div>
+	  <input type="hidden" value="L2NhcmRzL3ByZXZpZXcucGhw" name="url">
+	  <input type="hidden" value="" name="id">
+      <div class="modal-footer">
+        <button type="submit" id="btnemailsend" class="btn btn-default" style="color:#fff;background-color:#45A642">تأكيد</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">إغلاق</button>
+      </div>
+	  </form>
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!--</form>-->
+<script>
+$(document).ready(function(){
+$('#btnwhatsappsend').click(function(){
+	
+	window.location.href = 'https://api.whatsapp.com/send?text=رابط تحمل الشهادة هو:'+ encodeURIComponent(window.location.href)+'&phone='+ $('#fmobile').val();
+});
+$('#btnemailsend').click(function(){
+	
+	
+});
+
+});
+</script>
+
+</body></html>
